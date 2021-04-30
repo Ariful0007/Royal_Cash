@@ -1,0 +1,28 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="payment">
+        <item>Select a option</item>
+        <item>Bkash</item>
+        <item>Rocket</item>
+        <item>Nogod</item>
+        <item>DBBL</item>
+    </string-array>
+    <string-array name="package_investmtn">
+        <item>Select a option</item>
+        <item>Weekly</item>
+        <item>Half Month</item>
+        <item>Monthly</item>
+        <item>3 Month</item>
+        <item>6 Month</item>
+        <item>12 Month</item>
+    </string-array>
+</resources>

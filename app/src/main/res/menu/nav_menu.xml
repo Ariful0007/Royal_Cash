@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="Dashboard"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:id="@+id/action_find"/>
+        <item android:title="Profile"
+            android:icon="@drawable/edit_profile"
+            android:id="@+id/action_following"/>
+        <item android:title="Balance"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:id="@+id/action_followers"/>
+        <item android:title="Add Investment"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:id="@+id/investment"/>
+        <item android:title="Confrim Investment"
+            android:icon="@drawable/ic_baseline_confirmation_number_24"
+            android:id="@+id/confrm"/>
+        <item android:title="My Investment"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:id="@+id/my_investment"/>
+        <item android:title="Withdraw"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:id="@+id/profit"/>
+        <item android:title="Refer"
+            android:icon="@drawable/ic_baseline_device_hub_24"
+            android:id="@+id/refer"/>
+        <item android:title="Transcation History"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:id="@+id/history"/>
+        <item android:title="Contact Us"
+            android:icon="@drawable/ic_baseline_contact_mail_24"
+            android:id="@+id/contact"/>
+    </group>
+</menu>

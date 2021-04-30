@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967582163079",
+    "project_id": "royal-cash-e3b35",
+    "storage_bucket": "royal-cash-e3b35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967582163079:android:de8c28a374e2153feed822",
+        "android_client_info": {
+          "package_name": "com.example.royalcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967582163079-mq3c6mjl3ut2thig7umvuu25ist00k3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6J-XHz83shcWa4XZjsWPv76n0Nr_6jEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967582163079-mq3c6mjl3ut2thig7umvuu25ist00k3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

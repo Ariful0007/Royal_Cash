@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Confrom_investment">
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="@dimen/space_10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/profile_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Add Investment"
+                android:layout_centerHorizontal="true"
+
+                android:textColor="@color/colorAccent2"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <ScrollView
+                android:layout_below="@id/profile_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter User Email"
+                        android:gravity="left"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="@dimen/space_20dp"
+                        android:layout_marginRight="50dp"
+                        android:id="@+id/s9"
+                        >
+                    </TextView>
+                    <EditText
+                        android:layout_below="@+id/Email_Log"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border"
+                        android:id="@+id/Password_Log9"
+                        android:maxLength="25"
+                        android:inputType="textEmailAddress"
+
+                        android:maxLines="1"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:hint="Enter User Email"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textSize="@dimen/space_15dp"
+
+                        >
+
+                    </EditText>
+                    //
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter User Phone Number"
+                        android:gravity="left"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="@dimen/space_20dp"
+                        android:layout_marginRight="50dp"
+                        android:id="@+id/s"
+                        >
+                    </TextView>
+                    <EditText
+                        android:layout_below="@+id/Email_Log"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border"
+                        android:id="@+id/Password_Log"
+                        android:maxLength="25"
+                        android:inputType="phone"
+
+                        android:maxLines="1"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:hint="Enter User Phone Number"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textSize="@dimen/space_15dp"
+
+                        >
+
+                    </EditText>
+                    //user
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Amount "
+                        android:gravity="left"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="@dimen/space_20dp"
+                        android:layout_marginRight="50dp"
+                        android:id="@+id/s221"
+                        >
+                    </TextView>
+                    <EditText
+                        android:layout_below="@+id/Email_Log"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        android:background="@drawable/border"
+                        android:id="@+id/Password_Log51"
+                        android:inputType="numberDecimal"
+                        android:maxLength="20"
+
+                        android:maxLines="1"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:hint="Enter Amount"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textSize="@dimen/space_15dp"
+
+                        >
+
+                    </EditText>
+                    //
+                    //user
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Transcation ID "
+                        android:gravity="left"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="@dimen/space_20dp"
+                        android:layout_marginRight="50dp"
+                        android:id="@+id/s1"
+                        >
+                    </TextView>
+                    <EditText
+                        android:layout_below="@+id/Email_Log"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        android:background="@drawable/border"
+                        android:id="@+id/Password_Log1"
+                        android:inputType="text"
+                        android:maxLength="20"
+
+                        android:maxLines="1"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:hint="Transcation ID"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textSize="@dimen/space_15dp"
+
+                        >
+
+                    </EditText>
+                    //
+                    //user
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Methode "
+                        android:gravity="left"
+                        android:textColor="@color/colorAccent2"
+                        android:textSize="19dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="@dimen/space_20dp"
+                        android:layout_marginRight="50dp"
+                        android:id="@+id/s11"
+                        >
+                    </TextView>
+                    <Spinner
+                        android:id="@+id/spinnerTextSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border"
+                        android:gravity="center_vertical"
+                        android:layout_below="@+id/age"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"/>
+
+
+                    <Button
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/tmio_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/primary_btn_bg"
+                        android:fontFamily="sans-serif"
+                        android:text="Send Conformation"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="16sp"
+
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
